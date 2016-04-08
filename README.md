@@ -9,7 +9,7 @@ A simple and clean Jekyll theme. The theme works well on mobile devices as well.
 
 ###About ME
 
-blog：[blog](http://limingyang2012.github.io/)
+blog：[blog](http://wenmagi.github.io/)
 
 微博：[limingyang2012](http://weibo.com/limingyang2012)
 
