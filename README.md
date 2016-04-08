@@ -1,67 +1,42 @@
-Book
-====
+# brume
 
-Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by year and an about page. brume uses redcarpet as the Markdown processor with strikethrough extension enabled by default (so you can use ~~ to strike out words).
 
-### Screenshots
+This is how the "Home" page looks like.
 
-![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.48.57.png)
 
-![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
+And this is a single post.
 
-![](http://kkninjae.github.io/book/assets/img/404.jpg)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-04-06%20at%2012.56.08.png)
 
-### Features
+## Usage
 
-* Responsive layout and mobile first
-* Customized [404](http://kkninjae.github.io/book/hehe) page
-* Footer link is the back-home link
+**Important:** The latest version of brume uses `site.baseurl` for links, therefore, if you want to put your site in a subdirectory, update the *_config.yml* file!
 
-### Get started
+- Download the ZIP file and extract it's contents.
+- Open *_config.yml* file and enter your site's URL and add additional configuration or update the existing one if needed.
+- Open *_data/brume.yml* file and fill in values for site name (site title), author (your name) and description (blog description). This file contains all the custom information about your page. You can access it using `site.data.brume` object.
+- Open *about/index.md* file and add information about you or your site. You can delete this file and directory if not needed.
+- Open *_data/links.yml* and add additional links or update the existing ones that you want to be displayed in the navigation menu.
+- If you don't want to use CC BY-NC 4.0 licence for the content, then you should change the footer text, which is located in *_layouts/default.html*.
+- Generate your site and be happy!
 
-1.  fork the [repo](https://github.com/kkninjae/book/fork).
-2.  clone `git clone https://github.com/username/book`
-3.  run `jekyll serve -w`
+### Jekyll < 2.0.0
 
-[http://localhost:4000](http://localhost:4000) should be ready.
+I try to keep brume up to date with the newest Jekyll version. Jekyll 2.0.0 introduced a lot of changes (like a built in Sass support) that are not backward compatible, therefore I have created a separate branch `legacy` for those, who might be using an older Jekyll version. All the changes that I introduce in `master` will be ported to `legacy`.
 
-Customization
--------------
+## Theme customization
 
-### _config.yml file
+This theme has 4 predefined colors that can be used for links:
 
-* title: site name
-* description: site description
-* url: site url
-* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
-* favicon: absolute path of site favicon
-* google_analytics: id for google analystics
-* disqus_shortname: shortname of disque comment system
-* about: content on the about page.
-  you can write more than one paragraph but the format should be like the original one.
-  the special word `?link?` will be replaced by one of the links which are listed under links.
+- azul
+- ruby
+- amber
+- avocado
 
-### warning
+![Color Examples](https://dl.dropboxusercontent.com/u/9924988/colors_new.png)
 
-Please do not delete the first two lines of style.css file.
+By default it uses *azure*, but if you want to select another one just change the second class of `container` div in *_layouts/default.html* to one of the provided names.
 
-End.
-----
-
-If you like it, [star](https://github.com/kkninjae/book) it.
-
-If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
-
-Open Sources
-------------
-
-The following open sources have been used in this project.
-
-* [Google Fonts](https://www.google.com/fonts)
-* [jQuery](https://jquery.com/)
-* [highlight.js](https://highlightjs.org/)
-
-License
--------
-
-[MIT](./LICENSE)
+Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
