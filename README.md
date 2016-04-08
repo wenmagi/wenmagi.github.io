@@ -1,55 +1,62 @@
-# jekyll-theme-EasyBook
+# limingyang2012.github.io
 
-Another Jekyll Blog Theme "EasyBook"
+###About Theme 
 
-Start blogging with a simple but powerful theme.
 
-## Features
+A simple and clean Jekyll theme. The theme works well on mobile devices as well.If you are using this theme, please click a **star** on this respository, I am happy to know where the theme has been used.
 
-- Everything Basic Jekyll has.
-- **Pagination** is enabled.
-- **Comments** using Disqus or 多说.
-- **TOC** makes reading easier.
-- **Profile** including your links and avatar on the sidebar.
-- *And more...*
+#### 麻烦使用我这个博客模板的同学注明下博客模板来源，非常感谢。
 
-## Install
+###About ME
 
-Read [Quick Guide] to learn how to install and publish.
+blog：[blog](http://limingyang2012.github.io/)
 
-Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
+微博：[limingyang2012](http://weibo.com/limingyang2012)
 
-**If need help, please:**
+facebook：[limingyang2012](https://www.facebook.com/limingyang2012)
 
- - [**Read Wiki pages**](https://github.com/laobubu/jekyll-theme-EasyBook/wiki)
- - **Google it**
- - [**Submit an issue**](https://github.com/laobubu/jekyll-theme-EasyBook/issues/new)
+linkedin：[limingyang2012](www.linkedin.com/in/limingyang2012)
 
-## Donate
+###Getting Started
 
-Buy me a coffee if you find EasyBook useful for you :smiley:
+1. Clone this repository on your local,
+1. [Install Jekyll](https://github.com/mojombo/jekyll/wiki/install),
+1. Go at the root of the repository and run ```jekyll serve```,
+1. Go to http://localhost:4000,
 
-Visit <http://laobubu.net/donate.html>
+#####When you use this theme. Please make sure to add the author's info, like this: Jekyll theme by [limingyang2012](https://github.com/limingyang2012) or Designed by [limingyang2012](https://github.com/limingyang2012)
 
-## Demo
+You may need to reconfigure `_config.yml` and other file
 
-[laobubu's blog](http://blog.laobubu.net) | [empty site](http://laobubu.github.io/jekyll-theme-EasyBook)
+![post](https://github.com/limingyang2012/limingyang2012.github.io/blob/master/assets/readme/post.jpg)
 
-![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
 
-## License
+###Contact
 
-```
-The MIT License (MIT)
-Copyright (c) 2016 laobubu
+If you have any questions or suggestions for improvements, don't
+hesitate to [open an issue](https://github.com/limingyang2012/limingyang2012.github.io/issues)
+or making a pull request for your fork!
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+###License
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+[MIT License](https://github.com/limingyang2012/limingyang2012.github.io/blob/master/LICENSE)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+Copyright (c) 2015 limingyang2012
 
-[Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
-[helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
-[jekyll]: http://jekyllrb.com/
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
