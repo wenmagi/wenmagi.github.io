@@ -12,4 +12,4 @@ categories: journal
 
 很早以前就打算用gitHub搭建一个属于自己的博客，最近正好处于版本迭代的间隔，就抽空搭建了下。
 
-![火箭飞吧]({{ site.url }}/assets.img.cover.jpg)
+![火箭飞吧]({{ site.url }}/assets.img/cover.jpg)
