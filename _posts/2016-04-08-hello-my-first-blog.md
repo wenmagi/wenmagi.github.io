@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Github博客第一帖"
-date: 2016-04-08  19:35:00
+date: 2016-04-08
 categories: journal
 ---
 
 第一次用jekyll博客发帖
+
+---
 
 - 目录
 {:toc}
